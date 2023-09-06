@@ -1880,3 +1880,48 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+
+/**
+ * Logos
+ */
+
+.logo{
+  transform: scale(1.0);
+  width: 12%;
+  float: left;
+}
+
+.h_logo{
+  width: 23%;
+  height: 10%;
+  
+}
+
+.uni_logo{
+  width: 23%;
+  height: 10%;
+}
+
+
+.research{
+  margin-right:0.7vw;
+}
+
+.cv{
+  width: 80px;
+  line-height: 40px;
+  background-color: var(--orange-yellow-crayola);
+  padding: 2px 10px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: medium;
+  font-weight: bold;
+  text-decoration: none;
+  color:black;
+  transition: all 0.4s linear;
+}
+.cv:hover{
+  width: 120px;
+  
+}
